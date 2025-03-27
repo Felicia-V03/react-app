@@ -6,7 +6,7 @@ function App() {
   let isHere = true;
 
   return (
-    <section class="container">
+    <section class="container-wrapper">
       <h1>Hejsan!</h1>
       <p>Hej {myName}! Du är {myAge} år gammal.</p>
       <p>Är {myName} här?</p>
