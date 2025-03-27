@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header>
+    <header class="header-container">
       <section className="logo">
         <img src=".." alt="logo-image" className="logo-image" />
       </section>

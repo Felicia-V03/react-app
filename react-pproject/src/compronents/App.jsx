@@ -1,4 +1,4 @@
-import BookList from "./BookList";
+import BookCart from "./BookItem.jsx";
 
 function App() {
   let myName = 'Felicia';
@@ -6,14 +6,14 @@ function App() {
   let isHere = true;
 
   return (
-    <section class="container-wrapper">
+    <section class="book-container">
       <h1>Hejsan!</h1>
       <p>Hej {myName}! Du är {myAge} år gammal.</p>
       <p>Är {myName} här?</p>
       <p>{myName} är {isHere ? '' : 'inte'} här</p>
       <br />
       <p>{myName}s bok listan idag:</p>
-      <BookList />
+      <BookCart />
     </section>
   )
 }
