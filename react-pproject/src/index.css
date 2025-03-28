@@ -4,6 +4,55 @@
   padding: 0;
 }
 
-.container {
-  background-color: antiquewhite;
+.container-wrapper {
+  background-color: #3c1b97;
+  padding: 5rem 10rem;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 3rem;
+}
+
+.book-item{
+  max-width: auto;
+  background-color: white;
+  text-align: center;
+  padding: 1rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem 2rem;
+  border-radius: .5rem;
+}
+
+.book-author {
+  font-size: 0.9rem;}
+
+.add-btn {
+  background-color: #3263ce;
+  color: white;
+  width: 50%;
+  height: 10%;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
 }
